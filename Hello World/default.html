@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>Hello_World</title>
+
+    <!-- ReferênciasWinJS -->
+    <!-- <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" /> -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- Referências de Hello_World -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+</head>
+<body>
+    <h1 class="headerClass">Hello World</h1>
+    <div class="mainContent">
+        <p>This is the first app of Fábio Ferreira for Windows 8</p>
+        <p>What is your name?</p>
+        <input id="nameInput" type="text" />
+        <button id="helloButton">Say "Hello"</button>
+        <div id="greetingOutput"></div>
+        <label for="ratingControlDiv">
+            Rate this greeting: 
+        </label>
+        <div id="ratingControlDiv" data-win-control="WinJS.UI.Rating">
+        </div>
+        <div id="ratingOutput"></div>
+    </div>
+</body>
+</html>
